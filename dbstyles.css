@@ -1,0 +1,81 @@
+body {
+	background: steelblue;
+	font-family: 'Droid Sans', sans-serif;
+	color: white;
+}
+
+table {
+	border-style: solid;
+	text-align:center;
+}
+ 
+td,tr,th {
+	border-style: solid;
+	border-color:white;
+}
+
+.intro{
+	background: orange;
+	padding: 10px;
+	margin:20px;
+	text-align:center;
+	
+}
+
+.box {
+	background: orange;
+	padding: 10px;
+	margin:20px;
+	text-align:center;
+}
+.box-left {
+	background: orange;
+	padding: 10px;
+	margin:20px;
+	
+	text-align:center;
+	float-left;
+}
+.box-right {
+	background: orange;
+	padding: 10px;
+	margin:20px;
+	
+	text-align:center;
+	float:left;
+}
+
+input {
+	border-radius: 0px;
+	background: royalblue;
+	color: white;
+	font-size: 15;
+	font-family:'Droid Sans', sans-serif;;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align:center;
+    height:50px;
+}
+
+li {
+    float: left;
+}
+
+li input {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li input:hover {
+    background-color: #111;
+}
